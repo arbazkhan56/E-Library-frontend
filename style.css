@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,11 @@ html{
     height: 100vh;
     width: 100%;
     background-color: black;
+}
+
+.darkmode .header{
+    
+    background-color:white;
 }
 .header:before{
     content: "";
@@ -52,6 +58,10 @@ h1{
     padding-top: 350px!important;
 }
 
+.darkmode .centerdiv{
+    color: black;
+}
+
 @media (max-width:765px)
 {
     .centerdiv{
@@ -67,6 +77,9 @@ h1{
 }
     .book{
         background-color: rgb(15, 15, 15)!important;
+    }
+    .darkmode .book{
+        background-color: white!important;
     }
 .bookrow{
     
@@ -90,6 +103,10 @@ h1{
     text-align: left;
     background-color: black;
     }
+    .darkmode .desp{
+        color: black;
+        background-color: white;
+    }
     .content{
         height: 300px;
         width: 600px;
@@ -109,6 +126,10 @@ h1{
     background-color: black;
     color: whitesmoke;
     
+}
+.darkmode .newsletter{
+    background-color: white;
+    color: black;
 }
 
 .news-input{
@@ -132,6 +153,10 @@ h1{
     padding-top: 30px;
     background-color: rgb(15, 15, 15)!important;
 }
+.darkmode .about{
+    background-color: white!important;
+}
+
 .aboutus{
     border: solid black;
     padding: 80px!important;
@@ -159,6 +184,10 @@ h1{
     width: 100%;
     color:whitesmoke;
     background-color: black;
+}
+.darkmode .page-footer{
+    color: black;
+    background-color: white;
 }
 
 
@@ -247,3 +276,8 @@ h1{
     -webkit-transform: translateX(26px);
             transform: translateX(26px);
 }
+
+.darkmode{
+    background-color: white;
+    color: black;
+  }
